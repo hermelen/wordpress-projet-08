@@ -28,3 +28,8 @@ function debug($array){
   print_r($array);
   echo '</pre>';
 }
+
+function get_product_stock() {
+  wc_get_template_part('template-parts/stock');
+}
+add_action( 'woocommerce_after_shop_loop_item', 'get_product_stock', 10 );
