@@ -33,3 +33,11 @@ function get_product_stock() {
   wc_get_template_part('template-parts/stock');
 }
 add_action( 'woocommerce_after_shop_loop_item', 'get_product_stock', 10 );
+
+global $price;
+function double_price($price) {
+  // wc_get_template_part('template-parts/price');
+  $price = $price/2;
+  return $price;
+}
+add_action( 'raw_woocommerce_price', 'double_price', 10 );
