@@ -17,10 +17,20 @@
 
 <?php wp_head(); ?>
 </head>
-
-<body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-			<?php get_template_part( 'template-parts/navbar', get_post_type() ); ?>
-	</header><!-- #masthead -->
-	<div id="content" class="site-content">
+	<body class="index">
+		<?php do_action( 'storefront_before_site' ); ?>
+		<?php do_action( 'storefront_before_header' ); ?>
+    <header class='main-header'>
+      <?php get_template_part('template-parts/navbar') ?>
+      <div class="title">
+        <h2 class="header-h"><?php echo strtoupper(get_bloginfo('name')) ?></h1>
+        <h3 class="header-h"><?php echo get_bloginfo('description') ?></h2>
+        <a class="btn" href="#">BROWSE OUR PRODUCTS</a>
+      </div>
+      <a class="arrow" href="#fooTer"><i class="fas fa-angle-down"></i></a>
+    </header>
+    <main class='site-content'>
+      <!-- <h2>Spring Summer 2017</h2> -->
+      <div class="container">
+        <div class="row" id="catalog">
+					<!-- here should be the shop content -->

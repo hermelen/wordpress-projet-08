@@ -19,4 +19,199 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
 Images License: GNU General Public License v2 or later
 */
+/*
+ * Add your own custom css below this text.
+ */
+body.product div.product-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+body.product div.product-title h2 {
+  text-align: center; }
+body.product div.col-12.col-md-6.product-image {
+  display: flex;
+  justify-content: center; }
+
+body.index, body.product {
+  background-color: #eeeeee; }
+body.index header.main-header, body.product header.main-header {
+  position: relative;
+  background-color: #281400;
+  text-align: center; }
+body.index header.main-header i, body.product header.main-header i {
+  color: lightgrey;
+  font-size: 1em; }
+body.index header.main-header a.arrow, body.product header.main-header a.arrow {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0.5em;
+  font-size: 2em; }
+body.index header.main-header nav a, body.product header.main-header nav a {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter; }
+body.index header.main-header nav ul, body.product header.main-header nav ul {
+  justify-content: center;
+  width: 100%; }
+body.index header.main-header nav ul li:nth-of-type(1), body.product header.main-header nav ul li:nth-of-type(1) {
+  order: 2; }
+body.index header.main-header nav ul li:nth-of-type(2), body.product header.main-header nav ul li:nth-of-type(2) {
+  order: 4; }
+body.index header.main-header nav ul li:nth-of-type(3), body.product header.main-header nav ul li:nth-of-type(3) {
+  order: 1; }
+body.index header.main-header nav ul li:nth-of-type(4), body.product header.main-header nav ul li:nth-of-type(4) {
+  order: 3; }
+body.index header.main-header div.title h2, body.index header.main-header div.title h3, body.product header.main-header div.title h2, body.product header.main-header div.title h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: white; }
+body.index header.main-header div.title h3, body.product header.main-header div.title h3 {
+  font-size: 2.5em;
+  margin-left: auto;
+  margin-right: auto; }
+body.index header.main-header div.title .btn, body.product header.main-header div.title .btn {
+  background-color: #a28f61;
+  color: white;
+  margin-bottom: 0.5em;
+  font-weight: bold; }
+body.index main.site-content, body.product main.site-content {
+  padding: 5em 0;
+  background-color: white; }
+body.index main.site-content div.container div#catalog div#primary, body.product main.site-content div.container div#catalog div#primary {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+body.index main.site-content div.container div#catalog div#primary main#main header.woocommerce-products-header h1.woocommerce-products-header__title, body.product main.site-content div.container div#catalog div#primary main#main header.woocommerce-products-header h1.woocommerce-products-header__title {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0 0 1.5em 0; }
+body.index main.site-content div.container div#catalog div#primary main#main div.storefront-sorting, body.product main.site-content div.container div#catalog div#primary main#main div.storefront-sorting {
+  display: none; }
+body.index main.site-content div.container div#catalog div#primary main#main ul, body.product main.site-content div.container div#catalog div#primary main#main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li, body.product main.site-content div.container div#catalog div#primary main#main ul li {
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 10px 15px lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li span.stock, body.product main.site-content div.container div#catalog div#primary main#main ul li span.stock {
+  margin: 0 0 0 10px; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link {
+  text-decoration: none;
+  color: inherit; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link img, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link img {
+  border-radius: 0;
+  margin-bottom: 5px; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link > span, body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link h2, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link > span, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link h2 {
+  margin: 0 0 0 10px;
+  padding: 0; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price {
+  display: flex; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price del, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price del {
+  order: 2;
+  margin-left: 0.5em; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price ins, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.price ins {
+  order: 1;
+  margin-left: 0; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale, body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.soldout, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.soldout {
+  border: 0px;
+  font-weight: 600;
+  font-size: 1em; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale {
+  border: 0px;
+  color: #8d9198; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale, body.product main.site-content div.container div#catalog div#primary main#main ul li a.woocommerce-LoopProduct-link span.onsale {
+  border: 0px;
+  color: #ffd500; }
+body.index main.site-content div.container div#catalog div#primary main#main ul li a.button, body.product main.site-content div.container div#catalog div#primary main#main ul li a.button {
+  display: none; }
+body.index main.site-content div.container div#catalog div#primary main#main ul::after, body.index main.site-content div.container div#catalog div#primary main#main ul::before, body.product main.site-content div.container div#catalog div#primary main#main ul::after, body.product main.site-content div.container div#catalog div#primary main#main ul::before {
+  display: none; }
+body.index footer, body.product footer {
+  padding: 4em 0 0 1.5em;
+  background-color: #0f3e57; }
+body.index footer div.container div#fooTer div, body.product footer div.container div#fooTer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+body.index footer div.container div#fooTer div h3, body.product footer div.container div#fooTer div h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 1.5em; }
+body.index footer div.container div#fooTer div ul, body.product footer div.container div#fooTer div ul {
+  padding-left: 0;
+  margin: 0 0 1.4em 0; }
+body.index footer div.container div#fooTer div ul li, body.product footer div.container div#fooTer div ul li {
+  list-style: none; }
+body.index footer div.container div#fooTer div ul li i, body.product footer div.container div#fooTer div ul li i {
+  color: grey;
+  padding-right: 1em; }
+body.index footer div.container div#fooTer div ul li a, body.product footer div.container div#fooTer div ul li a {
+  color: grey; }
+body.index footer div.container div#fooTer div ul li a:hover, body.product footer div.container div#fooTer div ul li a:hover {
+  color: white;
+  text-decoration: none; }
+body.index footer div.container div#fooTer div form input, body.product footer div.container div#fooTer div form input {
+  width: 70%; }
+body.index footer div.container div#fooTer div form button.btn.btn-outline-secondary, body.product footer div.container div#fooTer div form button.btn.btn-outline-secondary {
+  padding: 0.5em 1em 0.4em 1em;
+  width: auto;
+  font-size: 0.9em; }
+
+@media screen and (min-width: 415px) {
+  body.index main.site-content div.container div#catalog div#primary main#main ul li, body.product main.site-content div.container div#catalog div#primary main#main ul li {
+    align-items: flex-start;
+    width: 13em; } }
+@media screen and (min-width: 755px) {
+  body.index footer div.container div#fooTer div, body.product footer div.container div#fooTer div {
+    display: block; }
+  body.index footer div.container div#fooTer div ul, body.product footer div.container div#fooTer div ul {
+    margin: 0 0 1.4em 3em; } }
+body.portfolio header {
+  background-color: #2c3e50; }
+body.portfolio header nav div.collapse.navbar-collapse#navbarSupportedContent {
+  display: flex;
+  justify-content: flex-end; }
+body.portfolio header .presentation {
+  background-color: #18bc9c; }
+body.portfolio header h1, body.portfolio header h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+body.portfolio main h2 {
+  text-align: center;
+  font-weight: bold; }
+body.portfolio main section.portfolio div.container div.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+body.portfolio main section.portfolio div.container div.img img {
+  padding: 0.5em; }
+body.portfolio main section.about {
+  background-color: #18bc9c; }
+body.portfolio main section.about div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+body.portfolio main section.about div.container button {
+  border-radius: 3px; }
+body.portfolio main section.about div.container div.text {
+  display: flex;
+  padding: 3em 10em; }
+body.portfolio main section.about div.container div.text p {
+  padding: 1em; }
+
 /*# sourceMappingURL=style.css.map */
